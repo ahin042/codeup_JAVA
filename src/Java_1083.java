@@ -17,12 +17,16 @@ public class Java_1083 {
             }
             if (count > 0) {
                 for (int j = 0; j < count; j++) {
-                    System.out.print("짝");
+                    System.out.print(" X");
                 }
-                System.out.print(" ");
                 continue;
             }
-            System.out.print(i + " ");
+            if (i != 1) {
+                System.out.print(" " + i);
+            }
+            else {
+                System.out.print(i);
+            }
         }
     }
 }
