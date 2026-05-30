@@ -10,50 +10,86 @@ public class Java_1365 {
             System.out.print("*");
         }
 
-        System.out.println();
-        for (int i = 1; i <= b; i++) {
+        if (a % 2 == 1) {
+            System.out.println();
+            for (int i = 1; i <= b; i++) {
+                System.out.print("*");
+                for (int j = 1; j< i; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                for (int j = 1; j <= b * 2 - i * 2 + 1; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                for (int j = 1; j < i; j++) {
+                    System.out.print(" ");
+                }
+                System.out.println("*");
+            }
+
             System.out.print("*");
-            for (int j = 1; j< i; j++) {
+            for (int i = 1; i <= (a - 3) / 2; i++) {
                 System.out.print(" ");
             }
             System.out.print("*");
-            for (int j = 1; j <= b * 2 - i * 2 + 1; j++) {
-                System.out.print(" ");
-            }
-            System.out.print("*");
-            for (int j = 1; j < i; j++) {
+            for (int i = 1; i <= (a - 3) / 2; i++) {
                 System.out.print(" ");
             }
             System.out.println("*");
-        }
-
-        System.out.print("*");
-        for (int i = 1; i <= (a - 3) / 2; i++) {
-            System.out.print(" ");
-        }
-        System.out.print("*");
-        for (int i = 1; i <= (a - 3) / 2; i++) {
-            System.out.print(" ");
-        }
-        System.out.println("*");
 
 
-        for (int i = 1; i <= b; i++) {
-            System.out.print("*");
-            for (int j = 1; j< b - i + 1; j++) {
-                System.out.print(" ");
+            for (int i = 1; i <= b; i++) {
+                System.out.print("*");
+                for (int j = 1; j< b - i + 1; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                for (int j = 1; j <= i * 2 - 1; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                for (int j = 1; j < b - i + 1; j++) {
+                    System.out.print(" ");
+                }
+                System.out.println("*");
             }
-            System.out.print("*");
-            for (int j = 1; j <= i * 2 - 1; j++) {
-                System.out.print(" ");
-            }
-            System.out.print("*");
-            for (int j = 1; j < b - i + 1; j++) {
-                System.out.print(" ");
-            }
-            System.out.println("*");
         }
 
+        else {
+            System.out.println();
+            for (int i = 1; i <= b; i++) {
+                System.out.print("*");
+                for (int j = 1; j< i; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                for (int j = 1; j <= b * 2 - i * 2; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                for (int j = 1; j < i; j++) {
+                    System.out.print(" ");
+                }
+                System.out.println("*");
+            }
+
+            for (int i = 1; i <= b; i++) {
+                System.out.print("*");
+                for (int j = 1; j< b - i + 1; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                for (int j = 1; j <= i * 2 - 2; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                for (int j = 1; j < b - i + 1; j++) {
+                    System.out.print(" ");
+                }
+                System.out.println("*");
+            }
+        }
 
         for (int i = 1; i <= a; i++) {
             System.out.print("*");
