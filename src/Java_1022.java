@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Java_1015 {
+public class Java_1022 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double a = scanner.nextDouble();
-        System.out.printf("%.2f%n",a);
+        String a = scanner.nextLine(); // 전체 줄 다 읽기
+        System.out.println(a);
     }
 }
