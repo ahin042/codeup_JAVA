@@ -1,0 +1,11 @@
+package Java_1000;
+
+import java.util.Scanner;
+
+public class Java_1012 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double a = scanner.nextDouble();
+        System.out.printf("%.6f%n", a);
+    }
+}

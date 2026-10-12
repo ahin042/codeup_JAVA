@@ -1,0 +1,17 @@
+package Java_1100;
+
+import java.util.Scanner;
+
+public class Java_1139 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        if (a == b && a == 1) {
+            System.out.println(1);
+        }
+        else {
+            System.out.println(0);
+        }
+    }
+}
